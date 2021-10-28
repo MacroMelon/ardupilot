@@ -27,6 +27,11 @@
 
 #include <AP_HAL/AP_HAL.h>
 
+//ah yessss, BUTCHER the frikin code, DESTROY ITTTTT why dont you???
+//dang it man, wth??? whyy??
+//AP_HAL::OwnPtr<AP_HAL::I2CDevice> _motorctrl_1 = nullptr;	 //put this somewhere high up
+//AP_HAL::OwnPtr<AP_HAL::I2CDevice> _motorctrl_2 = nullptr;	 //put this somewhere high up
+
 // Common dependencies
 #include <AP_Common/AP_Common.h>            // Common definitions and utility routines for the ArduPilot libraries
 #include <AP_Common/Location.h>             // Library having the implementation of location class         
@@ -68,6 +73,7 @@
 #include <AC_Sprayer/AC_Sprayer.h>          // Crop sprayer library
 #include <AP_ADSB/AP_ADSB.h>                // ADS-B RF based collision avoidance module library
 #include <AP_Proximity/AP_Proximity.h>      // ArduPilot proximity sensor library
+//#include <AC_SPL_Motor_Ctrl/AC_SPL_Motor_Ctrl.h>	//yeeeeettt!!
 
 // Configuration
 #include "defines.h"
